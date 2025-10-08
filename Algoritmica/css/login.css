@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.card-header {
+    background-color: #2575fc;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.btn-login {
+    background-color: #6a11cb;
+    border: none;
+}
+.btn-login:hover {
+    background-color: #2575fc;
+}
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #6a11cb;
+}
+.register-link:hover {
+    text-decoration: underline;
+}
